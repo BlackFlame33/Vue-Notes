@@ -12,7 +12,7 @@
     <!-- 2.创建一个要控制的区域 -->
     <div id="app">
         <input type="button" value="浪起来" @click='lang'>
-        <input type="button" value="低调">
+        <input type="button" value="低调"   @click='stop'>
         <h4>{{ msg }}</h4>
     </div>
     <script>
@@ -20,12 +20,12 @@
         var vm = new Vue({
             el:'#app',
             data: {
-                msg:'猥琐发育，别浪~~！'
+                msg:'猥琐发育，别浪~~！',
+                IntervalID:null//在data上定义定时器ID
             },
             methods: {
                 lang(){
-                    var _this=this
-                    setInterval( ()=>{
+                    this.IntervalID = setInterval(()=>{
                         //获取到头的第一个字符
                     var start = this.msg.substring(0,1)
                     //获取到后面的所有字符
@@ -34,6 +34,9 @@
                     this.msg = end + start
                     }, 400)
                     //注意：vm实例，会监听自己身上data中所有数据的改变，只要数据一发生变化，就会自动把最新的数据，从data上同步到页面中去；【好处：程序员只需要关心数据，不需要考虑如何重新渲染DOM页面】
+                },
+                stop(){//停止定时器
+                    clearInterval(this.IntervalID)
                 }
             },
         })
