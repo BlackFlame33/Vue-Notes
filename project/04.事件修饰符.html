@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>04.事件修饰符</title>
+    <script src="./lib/vue.js"></script>
+    <style>
+        .inner {
+            height: 150px;
+            background-color: darkcyan;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <!-- 使用.stop阻止冒泡
+        <div class="inner" @click="divHandler">
+            <input type="button" value="戳他" @click.stop="btnHandler">
+        </div> -->
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {},
+            methods: {
+                divHandler() {
+                    console.log('这是触发了inner div 的点击事件')
+                },
+                btnHandler() {
+                    console.log('这是触发了btn按钮的点击事件')
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
