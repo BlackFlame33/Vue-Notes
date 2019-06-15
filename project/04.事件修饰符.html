@@ -12,26 +12,57 @@
             height: 150px;
             background-color: darkcyan;
         }
+        
+        .outer {
+            padding: 40px;
+            background-color: red;
+        }
     </style>
 </head>
 
 <body>
     <div id="app">
         <!-- 使用.stop阻止冒泡
-        <div class="inner" @click="divHandler">
-            <input type="button" value="戳他" @click.stop="btnHandler">
+        <div class="inner" @click="DivHandler">
+            <input type="button" value="戳他" @click.stop="BtnHandler">
         </div> -->
+        <!-- 使用.prevent阻止默认行为
+        <a href="http://www.baidu.com" @click.prevent="LinkClick">有问题，去百度</a> -->
+        <!-- 使用.capture实现捕获触发事件的机制
+        <div class="inner" @click.capture="DivHandler">
+            <input type="button" value="戳他" @click="BtnHandler">
+        </div> -->
+        <!-- 使用.self实现只有点击当前元素时，才会触发事件处理函数
+        <div class="inner" @click.self="DivHandler">
+            <input type="button" value="戳他" @click="BtnHandler">
+        </div> -->
+        <!-- 使用.once只触发一次事件处理函数
+        <a href="http://www.baidu.com" @click.prevent.once="LinkClick">有问题，去百度</a> -->
+        <!-- 演示：.stop和.self的区别 -->
+        <!-- .self只会阻止自己身上冒泡行为的触发，并不会真正阻止冒泡行为 -->
+        <div class="outer" @click="Div2Handler">
+            <div class="inner" @click.self="DivHandler">
+                <input type="button" value="戳他" @click="BtnHandler">
+            </div>
+        </div>
+
     </div>
     <script>
         var vm = new Vue({
             el: '#app',
             data: {},
             methods: {
-                divHandler() {
+                DivHandler() {
                     console.log('这是触发了inner div 的点击事件')
                 },
-                btnHandler() {
+                BtnHandler() {
                     console.log('这是触发了btn按钮的点击事件')
+                },
+                LinkClick() {
+                    console.log('触发了连接的点击事件')
+                },
+                Div2Handler() {
+                    console.log('出发了了outer div 的点击事件')
                 }
             }
         })
