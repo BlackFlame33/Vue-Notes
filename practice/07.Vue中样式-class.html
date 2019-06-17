@@ -33,8 +33,10 @@
         <!-- <h1 :class="['thin','italic','actice']">这是一个很大很大的H1，大到你无法想象!!!</h1> -->
         <!-- 在数组中使用三元表达式 -->
         <!-- <h1 :class="['red','thin',flag?'actice':'']">这是一个很大很大的H1，大到你无法想象!!!</h1> -->
-        <!-- 在数组中使用 -->
-        <h1 :class="['red','thin',{'actice':flag}]">这是一个很大很大的H1，大到你无法想象!!!</h1>
+        <!-- 在数组中使用对象来代替三元表达式，提高代码的可读性 -->
+        <!-- <h1 :class="['red','thin',{'actice':flag}]">这是一个很大很大的H1，大到你无法想象!!!</h1> -->
+        <!-- 在为class使用v-bind绑定对象的时候，对象的属性是类名，由于对象的属性可带引号，也可不带引号，所以这里我没有引号；属性的值是一个标识符 -->
+        <h1 :class="{red:true,thin:true,italic:true,actice:true}">这是一个很大很大的H1，大到你无法想象!!!</h1>
     </div>
     <script>
         var vm = new Vue({
