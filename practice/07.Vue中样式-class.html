@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <script src="./lib/vue.js"></script>
+    <style>
+        .red {
+            color: red;
+        }
+        
+        .thin {
+            font-weight: 200;
+        }
+        
+        .italic {
+            font-style: italic;
+        }
+        
+        .actice {
+            letter-spacing: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <!-- <h1 class="red thin">这是一个很大很大的H1，大到你无法想象!!!</h1> -->
+        <!-- 第一种使用方式，直接传递一个数据，注意：这里的class需要使用v-bind做数据绑定 -->
+        <!-- <h1 :class="['thin','italic','actice']">这是一个很大很大的H1，大到你无法想象!!!</h1> -->
+        <!-- 在数组中使用三元表达式 -->
+        <!-- <h1 :class="['red','thin',flag?'actice':'']">这是一个很大很大的H1，大到你无法想象!!!</h1> -->
+        <!-- 在数组中使用 -->
+        <h1 :class="['red','thin',{'actice':flag}]">这是一个很大很大的H1，大到你无法想象!!!</h1>
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                flag: true
+            },
+            methods: {}
+        })
+    </script>
+</body>
+
+</html>
