@@ -1,17 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>project-vuecli</title>
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+	================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="css/flexslider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="css/cd-hero.css">
+    <!-- Style Swicther -->
+    <link id="style-switch" href="css/presets/preset1.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!-- built files will be auto injected -->
+    <!-- Javascript Files
+	================================================== -->
+
+    <!-- initialize jQuery Library -->
+    <script src="../public/js/jquery.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script src="../public/js/bootstrap.min.js"></script>
+    <!-- Style Switcher -->
+    <script src="../public/js/style-switcher.js"></script>
+    <!-- Owl Carousel -->
+    <script src="../public/js/owl.carousel.js"></script>
+    <!-- PrettyPhoto -->
+    <script src="../public/js/jquery.prettyPhoto.js"></script>
+    <!-- Bxslider -->
+    <script src="../public/js/jquery.flexslider.js"></script>
+    <!-- CD Hero slider -->
+    <script src="../public/js/cd-hero.js"></script>
+    <!-- Isotope -->
+    <script src="../public/js/isotope.js"></script>
+    <script src="../public/js/ini.isotope.js"></script>
+    <!-- Wow Animation -->
+    <script src="../public/js/wow.min.js"></script>
+    <!-- SmoothScroll -->
+    <script src="../public/js/smoothscroll.js"></script>
+    <!-- Eeasing -->
+    <script src="../public/js/jquery.easing.1.3.js"></script>
+    <!-- Counter -->
+    <script src="../public/js/jquery.counterup.min.js"></script>
+    <!-- Waypoints -->
+    <script src="../public/js/waypoints.min.js"></script>
+    <!-- Template custom -->
+    <script src="../public/js/custom.js"></script>
+</head>
+
+<body>
     <noscript>
-      <strong>We're sorry but project-vuecli doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+        <strong>We're sorry but project-vuecli doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+    <!-- Style switcher start -->
+    <div class="style-switch-wrapper">
+        <div class="style-switch-button">
+            <i class="fa fa-sliders"></i>
+        </div>
+        <h3>Style Options</h3>
+        <button id="preset1" class="btn btn-sm btn-primary"></button>
+        <button id="preset2" class="btn btn-sm btn-primary"></button>
+        <button id="preset3" class="btn btn-sm btn-primary"></button>
+        <button id="preset4" class="btn btn-sm btn-primary"></button>
+        <button id="preset5" class="btn btn-sm btn-primary"></button>
+        <button id="preset6" class="btn btn-sm btn-primary"></button>
+        <br>
+        <br>
+        <a class="btn btn-sm btn-primary close-styler pull-right">Close X</a>
+    </div>
+    <!-- Style switcher end -->
+
+
+</body>
+
 </html>
