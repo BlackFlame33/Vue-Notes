@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+
 import Header from './components/Header'
+import StyleSwitcher from './components/StyleSwitcher'
+import Slider from './components/Slider'
+import ServiceBox from './components/ServiceBox'
 
 Vue.use(Router)
 
