@@ -1,5 +1,6 @@
 <template>
   <div class="body-inner">
+    <Header />
     <div id="banner-area">
       <img
         src="images/banner/banner2.jpg"
@@ -20,6 +21,11 @@
         </div>
       </section>
     </div><!-- Body inner end -->
+    <Header/>
+    <Subpagetitle/>
+    <Maincontainer/>
+    <Footer1 />
+    <Footer2 />
   </div>
 </template>
 

@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Servicesingle from './views/Service-single'
+import Service from './views/Service'
+import Service2 from './views/Service2'
 
 import Header from './components/Header'
 import StyleSwitcher from './components/StyleSwitcher'
@@ -10,7 +12,10 @@ import ServiceBox from './components/ServiceBox'
 import Footer1 from './components/Footer1'
 import Footer2 from './components/Footer2'
 import Maincontainer from './components/Maincontainer'
+import MaincontainerService2 from './components/MaincontainerService2'
 import Subpagetitle from './components/Subpagetitle'
+import Footer1Service from './components/Footer1Service'
+import Footer2Service from './components/Footer2Service'
 
 Vue.use(Router)
 
@@ -39,8 +44,7 @@ export default new Router({
       {
           path:'/service',
           name:'service',
-          component: () =>
-          import ( /* webpackChunkName: "service" */ './views/Service.vue')
+          component: Service
       },
       {
         path:'/service2',
