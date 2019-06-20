@@ -9,6 +9,7 @@
       <div id="banner-area">
         <img src="images/banner/banner2.jpg" alt>
         <div class="parallax-overlay"></div>
+
         <!-- Subpage title start -->
         <div class="banner-title-content">
           <div class="text-center">
@@ -28,8 +29,22 @@
     </div>
     <SubpagetitleService />
     <MaincontainerService />
+    <section class="call-to-action">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h3>Join with BizCraft and Give Your Website a Brand New Look</h3>
+              <a href="#"
+class="pull-right btn btn-primary white">Purchase Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
     <Footer1Service />
-    <Footer2Service />
+    <Footer2Service />   
+    </div>
+    <!-- Body inner end -->
   </div>
 </template>
 
