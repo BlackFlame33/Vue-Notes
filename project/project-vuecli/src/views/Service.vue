@@ -45,7 +45,7 @@ class="pull-right btn btn-primary white">Purchase Now</a>
     <Footer2Service />   
     </div>
     <!-- Body inner end -->
-  </div>
+  
 </template>
 
 
