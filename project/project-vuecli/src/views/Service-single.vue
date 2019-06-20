@@ -1,11 +1,11 @@
 <template>
-    <div class="body-inner">
-      <div id="banner-area">
-        <img
-          src="images/banner/banner2.jpg"
-          alt=""
-        >
-        <div class="parallax-overlay" />
+  <div class="body-inner">
+    <div id="banner-area">
+      <img
+        src="images/banner/banner2.jpg"
+        alt=""
+      >
+      <div class="parallax-overlay" />
       <section class="call-to-action">
         <div class="container">
           <div class="row">

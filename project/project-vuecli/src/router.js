@@ -29,7 +29,20 @@ export default new Router({
         {
           path: '/service-single',
           name: 'service-single',
-          component: Servicesingle
+          component: () =>
+          import ( /* webpackChunkName: "service-single" */ './views/Service-single.vue')
       },
+      {
+          path:'/service',
+          name:'service',
+          component: () =>
+          import ( /* webpackChunkName: "service" */ './views/Service.vue')
+      },
+      {
+        path:'/service2',
+        name:'service2',
+        component: () =>
+        import ( /* webpackChunkName: "service" */ './views/Service2.vue')
+    }
     ]
 })
