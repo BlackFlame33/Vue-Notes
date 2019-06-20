@@ -304,3 +304,8 @@
       </section><!--/ Main container end -->
     </div>
 </template>
+<script>
+export default {
+  name: 'MaincontainerService'
+}
+</script>
