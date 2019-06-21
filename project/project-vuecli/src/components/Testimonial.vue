@@ -2,7 +2,7 @@
   <div>
     <!-- Testimonial start-->
     <section class="testimonial parallax parallax2">
-      <div class="parallax-overlay"/>
+      <div class="parallax-overlay" />
       <div class="container">
         <div class="row">
           <div
@@ -11,8 +11,10 @@
           >
             <div class="item">
               <div class="testimonial-thumb">
-                <img src="images/team/testimonial1.jpg"
-alt="testimonial">
+                <img
+                  src="images/team/testimonial1.jpg"
+                  alt="testimonial"
+                >
               </div>
               <div class="testimonial-content">
                 <p class="testimonial-text">
@@ -27,8 +29,10 @@ alt="testimonial">
             </div>
             <div class="item">
               <div class="testimonial-thumb">
-                <img src="images/team/testimonial2.jpg"
-alt="testimonial">
+                <img
+                  src="images/team/testimonial2.jpg"
+                  alt="testimonial"
+                >
               </div>
               <div class="testimonial-content">
                 <p class="testimonial-text">
@@ -43,8 +47,10 @@ alt="testimonial">
             </div>
             <div class="item">
               <div class="testimonial-thumb">
-                <img src="images/team/testimonial3.jpg"
-alt="testimonial">
+                <img
+                  src="images/team/testimonial3.jpg"
+                  alt="testimonial"
+                >
               </div>
               <div class="testimonial-content">
                 <p class="testimonial-text">

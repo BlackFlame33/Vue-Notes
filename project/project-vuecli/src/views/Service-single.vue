@@ -21,9 +21,9 @@
         </div>
       </section>
     </div><!-- Body inner end -->
-    <Header/>
-    <Subpagetitle/>
-    <Maincontainer/>
+    <Header />
+    <Subpagetitle />
+    <Maincontainer />
     <Footer1 />
     <Footer2 />
   </div>
