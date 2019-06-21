@@ -9,6 +9,8 @@ import Team1 from './views/Team1'
 import Testimonial1 from './views/Testimonial1'
 import Typography1 from './views/Typography1'
 import error from './views/error'
+import about2 from './views/about2'
+
 
 import MaincontainerTeam from './components/MaincontainerTeam'
 import MaincontainerService2 from './components/MaincontainerService2'
