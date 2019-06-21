@@ -1,9 +1,9 @@
 <template>
   <div>
     <!-- Footer start -->
-    <section>
+    <section
       id="copyright"
-      class="copyright angle"
+      class="copyright angle">
     
       <div class="container">
         <div class="row">
