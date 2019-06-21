@@ -1,8 +1,7 @@
 <template>
   <div>
     <!-- Header start -->
-    <header id="header"
-class="navbar-fixed-top header" role="banner">
+    <header id="header" class="navbar-fixed-top header" role="banner">
       <div class="container">
         <div class="row">
           <!-- Logo start -->
@@ -14,26 +13,23 @@ class="navbar-fixed-top header" role="banner">
               data-target=".navbar-collapse"
             >
               <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar" />
-              <span class="icon-bar" />
-              <span class="icon-bar" />
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
             <div class="navbar-brand navbar-bg">
               <a href="index.html">
-                <img class="img-responsive"
-src="images/logo.png" alt="logo">
+                <img class="img-responsive" src="images/logo.png" alt="logo">
               </a>
             </div>
           </div>
           <!--/ Logo end -->
-          <nav class="collapse navbar-collapse clearfix"
-role="navigation">
+          <nav class="collapse navbar-collapse clearfix" role="navigation">
             <ul class="nav navbar-nav navbar-right">
               <li class="dropdown active">
-                <a href="#"
-class="dropdown-toggle" data-toggle="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   Home
-                  <i class="fa fa-angle-down" />
+                  <i class="fa fa-angle-down"></i>
                 </a>
                 <div class="dropdown-menu">
                   <ul>
@@ -53,10 +49,9 @@ class="dropdown-toggle" data-toggle="dropdown">
                 </div>
               </li>
               <li class="dropdown">
-                <a href="#"
-class="dropdown-toggle" data-toggle="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   Company
-                  <i class="fa fa-angle-down" />
+                  <i class="fa fa-angle-down"></i>
                 </a>
                 <div class="dropdown-menu">
                   <ul>
@@ -79,10 +74,9 @@ class="dropdown-toggle" data-toggle="dropdown">
                 </div>
               </li>
               <li class="dropdown">
-                <a href="#"
-class="dropdown-toggle" data-toggle="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   Portfolio
-                  <i class="fa fa-angle-down" />
+                  <i class="fa fa-angle-down"></i>
                 </a>
                 <div class="dropdown-menu">
                   <ul>
@@ -99,10 +93,9 @@ class="dropdown-toggle" data-toggle="dropdown">
                 </div>
               </li>
               <li class="dropdown">
-                <a href="#"
-class="dropdown-toggle" data-toggle="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   Pages
-                  <i class="fa fa-angle-down" />
+                  <i class="fa fa-angle-down"></i>
                 </a>
                 <div class="dropdown-menu">
                   <ul>
@@ -128,10 +121,9 @@ class="dropdown-toggle" data-toggle="dropdown">
                 </div>
               </li>
               <li class="dropdown">
-                <a href="#"
-class="dropdown-toggle" data-toggle="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   Blog
-                  <i class="fa fa-angle-down" />
+                  <i class="fa fa-angle-down"></i>
                 </a>
                 <div class="dropdown-menu">
                   <ul>
@@ -145,10 +137,9 @@ class="dropdown-toggle" data-toggle="dropdown">
                 </div>
               </li>
               <li class="dropdown">
-                <a href="#"
-class="dropdown-toggle" data-toggle="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   Features
-                  <i class="fa fa-angle-down" />
+                  <i class="fa fa-angle-down"></i>
                 </a>
                 <div class="dropdown-menu">
                   <ul>
