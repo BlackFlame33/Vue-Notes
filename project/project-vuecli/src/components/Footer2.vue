@@ -1,9 +1,7 @@
 <template>
     <div>
         <!-- Footer start -->
-        <section>
-            id="copyright"
-            class="copyright angle"
+        <section id="copyright" class="copyright angle">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
