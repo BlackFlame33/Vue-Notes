@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
 import Home from './views/Home.vue'
 import Servicesingle from './views/Service-single'
 import Service from './views/Service'
@@ -7,6 +8,7 @@ import Service2 from './views/Service2'
 import Team1 from './views/Team1'
 import Testimonial1 from './views/Testimonial1'
 import Typography1 from './views/Typography1'
+import error from './views/error'
 
 import MaincontainerTeam from './components/MaincontainerTeam'
 import MaincontainerService2 from './components/MaincontainerService2'
@@ -28,6 +30,7 @@ import Parallax1 from "./components/Parallax1";
 import PricingTable from "./components/PricingTable";
 import Testimonial from "./components/Testimonial";
 import Copyright from "./components/Copyright";
+import BubpageTitle from "./components/BubpageTitle";
 
 
 
@@ -81,5 +84,10 @@ export default new Router({
             name: "typography",
             component: Typography1
         },
+        {
+            path: "/error",
+                name: "error",
+            component: error
+        }
     ]
 });

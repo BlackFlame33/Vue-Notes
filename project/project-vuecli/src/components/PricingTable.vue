@@ -1,13 +1,15 @@
 <template>
   <div>
     <!-- Pricing table start -->
-    <section id="pricing"
-class="pricing">
+    <section
+      id="pricing"
+      class="pricing"
+    >
       <div class="container">
         <div class="row">
           <div class="col-md-12 heading">
             <span class="title-icon pull-left">
-              <i class="fa fa-university"/>
+              <i class="fa fa-university" />
             </span>
             <h2 class="title">
               Pricing Table
@@ -18,8 +20,10 @@ class="pricing">
         <!-- Title row end -->
         <div class="row">
           <!-- plan start -->
-          <div class="col-md-3 col-sm-6 wow fadeInUp"
-data-wow-delay=".5s">
+          <div
+            class="col-md-3 col-sm-6 wow fadeInUp"
+            data-wow-delay=".5s"
+          >
             <div class="plan text-center">
               <span class="plan-name">
                 Basic
@@ -37,15 +41,19 @@ data-wow-delay=".5s">
                 <li>SSL Shopping Cart</li>
                 <li>24/7 Live Support</li>
               </ul>
-              <a class="btn btn-primary"
-href="#.">Sign Up</a>
+              <a
+                class="btn btn-primary"
+                href="#."
+              >Sign Up</a>
             </div>
           </div>
           <!-- plan end -->
 
           <!-- plan start -->
-          <div class="col-md-3 col-sm-6 wow fadeInUp"
-data-wow-delay="1s">
+          <div
+            class="col-md-3 col-sm-6 wow fadeInUp"
+            data-wow-delay="1s"
+          >
             <div class="plan text-center">
               <span class="plan-name">
                 Standared
@@ -63,15 +71,19 @@ data-wow-delay="1s">
                 <li>SSL Shopping Cart</li>
                 <li>24/7 Live Support</li>
               </ul>
-              <a class="btn btn-primary"
-href="#.">Sign Up</a>
+              <a
+                class="btn btn-primary"
+                href="#."
+              >Sign Up</a>
             </div>
           </div>
           <!-- plan end -->
 
           <!-- plan start -->
-          <div class="col-md-3 col-sm-6 wow fadeInUp"
-data-wow-delay="1.4s">
+          <div
+            class="col-md-3 col-sm-6 wow fadeInUp"
+            data-wow-delay="1.4s"
+          >
             <div class="plan text-center featured">
               <span class="plan-name">
                 Professional
@@ -89,15 +101,19 @@ data-wow-delay="1.4s">
                 <li>SSL Shopping Cart</li>
                 <li>24/7 Live Support</li>
               </ul>
-              <a class="btn btn-primary"
-href="#.">Sign Up</a>
+              <a
+                class="btn btn-primary"
+                href="#."
+              >Sign Up</a>
             </div>
           </div>
           <!-- plan end -->
 
           <!-- plan start -->
-          <div class="col-md-3 col-sm-6 wow fadeInUp"
-data-wow-delay="1.6s">
+          <div
+            class="col-md-3 col-sm-6 wow fadeInUp"
+            data-wow-delay="1.6s"
+          >
             <div class="plan text-center">
               <span class="plan-name">
                 Premium
@@ -115,8 +131,10 @@ data-wow-delay="1.6s">
                 <li>SSL Shopping Cart</li>
                 <li>24/7 Live Support</li>
               </ul>
-              <a class="btn btn-primary"
-href="#.">Sign Up</a>
+              <a
+                class="btn btn-primary"
+                href="#."
+              >Sign Up</a>
             </div>
           </div>
           <!-- plan end -->

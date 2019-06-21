@@ -1,12 +1,16 @@
 <template>
   <div>
     <!-- Feature box start -->
-    <section id="feature"
-class="feature">
+    <section
+      id="feature"
+      class="feature"
+    >
       <div class="container">
         <div class="row">
-          <div class="feature-box col-sm-4 wow fadeInDown"
-data-wow-delay=".5s">
+          <div
+            class="feature-box col-sm-4 wow fadeInDown"
+            data-wow-delay=".5s"
+          >
             <span class="feature-icon pull-left">
               <i class="fa fa-heart-o" />
             </span>
@@ -17,8 +21,10 @@ data-wow-delay=".5s">
           </div>
           <!--/ End first featurebox -->
 
-          <div class="feature-box col-sm-4 wow fadeInDown"
-data-wow-delay=".5s">
+          <div
+            class="feature-box col-sm-4 wow fadeInDown"
+            data-wow-delay=".5s"
+          >
             <span class="feature-icon pull-left">
               <i class="fa fa-codepen" />
             </span>
@@ -29,8 +35,10 @@ data-wow-delay=".5s">
           </div>
           <!--/ End 2nd featurebox -->
 
-          <div class="feature-box col-sm-4 wow fadeInDown"
-data-wow-delay=".5s">
+          <div
+            class="feature-box col-sm-4 wow fadeInDown"
+            data-wow-delay=".5s"
+          >
             <span class="feature-icon pull-left">
               <i class="fa fa-film" />
             </span>
@@ -46,8 +54,10 @@ data-wow-delay=".5s">
         <div class="gap-40" />
 
         <div class="row">
-          <div class="feature-box col-sm-4 wow fadeInDown"
-data-wow-delay=".5s">
+          <div
+            class="feature-box col-sm-4 wow fadeInDown"
+            data-wow-delay=".5s"
+          >
             <span class="feature-icon pull-left">
               <i class="fa fa-newspaper-o" />
             </span>
@@ -58,8 +68,10 @@ data-wow-delay=".5s">
           </div>
           <!--/ End 1st featurebox -->
 
-          <div class="feature-box col-sm-4 wow fadeInDown"
-data-wow-delay=".5s">
+          <div
+            class="feature-box col-sm-4 wow fadeInDown"
+            data-wow-delay=".5s"
+          >
             <span class="feature-icon pull-left">
               <i class="fa fa-desktop" />
             </span>
@@ -70,8 +82,10 @@ data-wow-delay=".5s">
           </div>
           <!--/ End 2nd featurebox -->
 
-          <div class="feature-box col-sm-4 wow fadeInDown"
-data-wow-delay=".5s">
+          <div
+            class="feature-box col-sm-4 wow fadeInDown"
+            data-wow-delay=".5s"
+          >
             <span class="feature-icon pull-left">
               <i class="fa fa-pagelines" />
             </span>
@@ -87,8 +101,10 @@ data-wow-delay=".5s">
         <div class="gap-40" />
 
         <div class="row">
-          <div class="feature-box col-sm-4 wow fadeInDown"
-data-wow-delay=".5s">
+          <div
+            class="feature-box col-sm-4 wow fadeInDown"
+            data-wow-delay=".5s"
+          >
             <span class="feature-icon pull-left">
               <i class="fa fa-recycle" />
             </span>
@@ -99,8 +115,10 @@ data-wow-delay=".5s">
           </div>
           <!--/ End first featurebox -->
 
-          <div class="feature-box col-sm-4 wow fadeInDown"
-data-wow-delay=".5s">
+          <div
+            class="feature-box col-sm-4 wow fadeInDown"
+            data-wow-delay=".5s"
+          >
             <span class="feature-icon pull-left">
               <i class="fa fa-diamond" />
             </span>
@@ -111,8 +129,10 @@ data-wow-delay=".5s">
           </div>
           <!--/ End first featurebox -->
 
-          <div class="feature-box col-sm-4 wow fadeInDown"
-data-wow-delay=".5s">
+          <div
+            class="feature-box col-sm-4 wow fadeInDown"
+            data-wow-delay=".5s"
+          >
             <span class="feature-icon pull-left">
               <i class="fa fa-whatsapp" />
             </span>

@@ -1,8 +1,10 @@
 <template>
   <div>
     <!-- Clients start -->
-    <section id="clients"
-class="clients">
+    <section
+      id="clients"
+      class="clients"
+    >
       <div class="container">
         <div class="row wow fadeInLeft">
           <div
@@ -11,50 +13,66 @@ class="clients">
           >
             <figure class="item client_logo">
               <a href="#">
-                <img src="images/clients/client1.png"
-alt="client">
+                <img
+                  src="images/clients/client1.png"
+                  alt="client"
+                >
               </a>
             </figure>
             <figure class="item client_logo">
               <a href="#">
-                <img src="images/clients/client2.png"
-alt="client">
+                <img
+                  src="images/clients/client2.png"
+                  alt="client"
+                >
               </a>
             </figure>
             <figure class="item client_logo">
               <a href="#">
-                <img src="images/clients/client3.png"
-alt="client">
+                <img
+                  src="images/clients/client3.png"
+                  alt="client"
+                >
               </a>
             </figure>
             <figure class="item client_logo">
               <a href="#">
-                <img src="images/clients/client4.png"
-alt="client">
+                <img
+                  src="images/clients/client4.png"
+                  alt="client"
+                >
               </a>
             </figure>
             <figure class="item client_logo">
               <a href="#">
-                <img src="images/clients/client5.png"
-alt="client">
+                <img
+                  src="images/clients/client5.png"
+                  alt="client"
+                >
               </a>
             </figure>
             <figure class="item client_logo">
               <a href="#">
-                <img src="images/clients/client6.png"
-alt="client">
+                <img
+                  src="images/clients/client6.png"
+                  alt="client"
+                >
               </a>
             </figure>
             <figure class="item client_logo">
               <a href="#">
-                <img src="images/clients/client7.png"
-alt="client">
+                <img
+                  src="images/clients/client7.png"
+                  alt="client"
+                >
               </a>
             </figure>
             <figure class="item client_logo">
               <a href="#">
-                <img src="images/clients/client8.png"
-alt="client">
+                <img
+                  src="images/clients/client8.png"
+                  alt="client"
+                >
               </a>
             </figure>
           </div>
