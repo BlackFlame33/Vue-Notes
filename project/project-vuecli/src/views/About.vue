@@ -1,16 +1,33 @@
 <template>
-    <div class="about">
-        <h1>This is an about page</h1>
-        <Header/>
+    <div>
+        <div class='body-inner'>
+            <div id='banner-area'>
+                <img src='images/banner/banner1.jpg' alt>
+                <div class='parallax-overlay'></div>
+
+                <BubpageTitle/>
+            </div>
+            <!-- Banner area end -->
+
+            <Maincontainer/>
+
+            <div class='gap-40'></div>
+        </div>
+        <!-- Body inner end -->
     </div>
 </template>
-<script>
-import Header from '@/components/Header.vue'
 
+<script>
+import BubpageTitle from '@/components/BubpageTitle'
+import Maincontainer from '@/components/Maincontainer'
 export default {
-    name: 'Home',
+    name: 'home',
     components: {
-        Header
+        Maincontainer,
+        BubpageTitle
     }
 }
 </script>
+
+<style scoped>
+</style>

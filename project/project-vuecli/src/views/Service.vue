@@ -1,24 +1,23 @@
 <template>
     <div>
-        <Header/>
-        <div class="body-inner">
-            <div id="banner-area">
-                <img src="images/banner/banner2.jpg" alt>
+        <div class='body-inner'>
+            <div id='banner-area'>
+                <img src='images/banner/banner2.jpg' alt>
             </div>
             <!-- Banner area end -->
-            <div id="banner-area">
-                <img src="images/banner/banner2.jpg" alt>
-                <div class="parallax-overlay"/>
+            <div id='banner-area'>
+                <img src='images/banner/banner2.jpg' alt>
+                <div class='parallax-overlay'/>
 
                 <!-- Subpage title start -->
-                <div class="banner-title-content">
-                    <div class="text-center">
+                <div class='banner-title-content'>
+                    <div class='text-center'>
                         <h2>Services</h2>
-                        <ul class="breadcrumb">
+                        <ul class='breadcrumb'>
                             <li>Home</li>
                             <li>Company</li>
                             <li>
-                                <a href="#">Services</a>
+                                <a href='#'>Services</a>
                             </li>
                         </ul>
                     </div>
@@ -29,19 +28,16 @@
         </div>
         <SubpagetitleService/>
         <MaincontainerService/>
-        <section class="call-to-action">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
+        <section class='call-to-action'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-sm-12'>
                         <h3>Join with BizCraft and Give Your Website a Brand New Look</h3>
-                        <a href="#" class="pull-right btn btn-primary white">Purchase Now</a>
+                        <a href='#' class='pull-right btn btn-primary white'>Purchase Now</a>
                     </div>
                 </div>
             </div>
         </section>
-
-        <Footer1/>
-        <Footer2/>
     </div>
     <!-- Body inner end -->
 </template>
@@ -50,18 +46,12 @@
 
 <script>
 // @ is an alias to /src
-import Header from '@/components/Header.vue'
 import SubpagetitleService from '@/components/SubpagetitleService.vue'
 import MaincontainerService from '@/components/MaincontainerService.vue'
-import Footer1 from '@/components/Footer1.vue'
-import Footer2 from '@/components/Footer2.vue'
 export default {
     components: {
-        Header,
         SubpagetitleService,
-        MaincontainerService,
-        Footer1,
-        Footer2
+        MaincontainerService
     }
 }
 </script>
