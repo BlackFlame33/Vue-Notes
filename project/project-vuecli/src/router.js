@@ -16,6 +16,7 @@ import contact from "./views/contact"
 import elements from "./views/elements"
 import Faq from "./views/Faq"
 import PortfolioClassic from "./views/PortfolioClassic"
+import PortfolioStatic from "./views/PortfolioStatic"
 
 import MaincontainerTeam from "./components/MaincontainerTeam"
 import MaincontainerService2 from "./components/MaincontainerService2"
@@ -125,6 +126,11 @@ export default new Router({
             path: "/portfolioclassic",
             name: "PortfolioClassic",
             component: PortfolioClassic
+        },
+        {
+            path: "/portfoliostatic",
+            name: "PortfolioStatic",
+            component: PortfolioStatic
         }
     ]
 })
