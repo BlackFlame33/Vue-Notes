@@ -37,8 +37,8 @@
             <div>
                 <MaincontainerTeam/>
             </div>
-            <Footer1Service/>
-            <Footer2Service/>
+            <Footer1/>
+            <Footer2/>
         </div>
     </div>
 </template>
@@ -46,15 +46,15 @@
 // @ is an alias to /src
 import Header from '@/components/Header.vue'
 import MaincontainerTeam from '@/components/MaincontainerTeam.vue'
-import Footer1Service from '@/components/Footer1Service.vue'
-import Footer2Service from '@/components/Footer2Service.vue'
+import Footer1 from '@/components/Footer1.vue'
+import Footer2 from '@/components/Footer2.vue'
 
 export default {
     components: {
         Header,
         MaincontainerTeam,
-        Footer1Service,
-        Footer2Service
+        Footer1,
+        Footer2
     }
 }
 </script>

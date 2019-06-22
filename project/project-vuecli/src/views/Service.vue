@@ -40,8 +40,8 @@
             </div>
         </section>
 
-        <Footer1Service/>
-        <Footer2Service/>
+        <Footer1/>
+        <Footer2/>
     </div>
     <!-- Body inner end -->
 </template>
@@ -53,15 +53,15 @@
 import Header from '@/components/Header.vue'
 import SubpagetitleService from '@/components/SubpagetitleService.vue'
 import MaincontainerService from '@/components/MaincontainerService.vue'
-import Footer1Service from '@/components/Footer1Service.vue'
-import Footer2Service from '@/components/Footer2Service.vue'
+import Footer1 from '@/components/Footer1.vue'
+import Footer2 from '@/components/Footer2.vue'
 export default {
     components: {
         Header,
         SubpagetitleService,
         MaincontainerService,
-        Footer1Service,
-        Footer2Service
+        Footer1,
+        Footer2
     }
 }
 </script>
