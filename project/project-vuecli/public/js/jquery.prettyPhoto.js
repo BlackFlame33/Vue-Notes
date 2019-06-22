@@ -1,3 +1,4 @@
+/* eslint-disable */
 /* ------------------------------------------------------------------------
 	Class: prettyPhoto
 	Use: Lightbox clone for jQuery

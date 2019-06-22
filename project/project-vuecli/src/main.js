@@ -4,8 +4,15 @@ import router from './router'
 import store from './store'
 import $ from 'jquery'
 import 'bootstrap/dist/js/bootstrap.min'
+import 'jquery.easing/bower_components/jquery-easing-original/jquery.easing'
 
-Vue.config.productionTip = false;
+import Header from '@/components/Header.js'
+Vue.use(Header)
+
+import Footer from '@/components/Footer.js'
+Vue.use(Footer)
+
+Vue.config.productionTip = false
 
 new Vue({
     router,
