@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import $ from 'jquery'
 import 'bootstrap/dist/js/bootstrap.min'
+import 'jquery.easing/bower_components/jquery-easing-original/jquery.easing'
 
 import Header from '@/components/Header.js'
 Vue.use(Header)
