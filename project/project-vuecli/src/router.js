@@ -17,6 +17,7 @@ import elements from "./views/elements"
 import Faq from "./views/Faq"
 import PortfolioClassic from "./views/PortfolioClassic"
 import PortfolioStatic from "./views/PortfolioStatic"
+import Pricing from "./views/Pricing"
 
 import MaincontainerTeam from "./components/MaincontainerTeam"
 import MaincontainerService2 from "./components/MaincontainerService2"
@@ -131,6 +132,11 @@ export default new Router({
             path: "/portfoliostatic",
             name: "PortfolioStatic",
             component: PortfolioStatic
+        },
+        {
+            path: "/pricing",
+            name: "Pricing",
+            component: Pricing
         }
     ]
 })
