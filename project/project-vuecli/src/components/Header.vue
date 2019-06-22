@@ -139,7 +139,7 @@
                                 </div>
                             </li>
                             <li>
-                                <router-link to='contact.html'>Contact</router-link>
+                                <router-link to='/contact'>Contact</router-link>
                             </li>
                         </ul>
                     </nav>

@@ -22,9 +22,9 @@
                         <div class='error-body'>
                             Try using the button below to go to main page of the site
                             <br>
-                            <a href='index.html' class='btn btn-primary solid blank'>
+                            <router-link to='/' class='btn btn-primary solid blank'>
                                 <i class='fa fa-arrow-circle-left'>&nbsp;</i> Go to Home
-                            </a>
+                            </router-link>
                         </div>
                     </div>
                 </div>

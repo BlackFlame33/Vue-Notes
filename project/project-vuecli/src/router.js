@@ -2,6 +2,11 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import About from './views/About'
+import BlogItem from './views/BlogItem'
+import Career from './views/Career'
+import Contact from './views/Contact'
+import Elements from './views/Elements'
+import Error from './views/Error'
 import Faq from './views/Faq'
 import Home from './views/Home.vue'
 import PortfolioClassic from './views/PortfolioClassic'
@@ -14,13 +19,7 @@ import ServiceSingle from './views/ServiceSingle'
 import Team1 from './views/Team1'
 import Testimonial1 from './views/Testimonial1'
 import Typography1 from './views/Typography1'
-import BlogItem from './views/BlogItem'
-import Career from './views/Career'
-import Contact from './views/Contact'
-import Elements from './views/Elements'
-import Error from './views/Error'
 
-import BlogDetailsPage from './components/BlogDetailsPage'
 import Copyright from './components/Copyright'
 import Counter from './components/Counter'
 import FeatureBox from './components/FeatureBox'
@@ -88,11 +87,7 @@ export default new Router({
             name: 'typography',
             component: Typography1
         },
-        {
-            path: '/error',
-            name: 'error',
-            component: Error
-        },
+
         {
             path: '/blog-item',
             name: 'blog-item',
@@ -137,6 +132,11 @@ export default new Router({
             path: '/portfolio-item',
             name: 'portfolio-item',
             component: PortfolioItem
-        }
+        },
+        {
+            path: '/*',
+            name: 'error',
+            component: Error
+        },
     ]
 })

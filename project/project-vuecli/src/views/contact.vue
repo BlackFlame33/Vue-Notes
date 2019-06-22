@@ -3,7 +3,19 @@
         <div id='banner-area'>
             <img src='images/banner/banner2.jpg' alt>
             <div class='parallax-overlay'></div>
-            <SubpageTitle/>
+            <!-- Subpage title start -->
+            <div class='banner-title-content'>
+                <div class='text-center'>
+                    <h2>Contact Us</h2>
+                    <ul class='breadcrumb'>
+                        <li>Home</li>
+                        <li>
+                            <a href='#'>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Subpage title end -->
         </div>
         <!-- Banner area end -->
 
@@ -109,12 +121,28 @@
             <!--/ container end -->
         </section>
         <!--/ Main container end -->
+        >
     </div>
     <!-- Body inner end -->
 </template>
 
 <script>
 import SubpageTitle from '@/components/SubpageTitle'
+$(function() {
+    $('#map')
+        .gmap3({
+            address: '14600 Goldenwest St #101A, Westminster, California 92683',
+            zoom: 17,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false
+        })
+        .marker(function(map) {
+            return {
+                position: map.getCenter(),
+                icon: 'http://themewinter.com/html/marker.png'
+            }
+        })
+})
 export default {
     name: 'contact',
     components: {
