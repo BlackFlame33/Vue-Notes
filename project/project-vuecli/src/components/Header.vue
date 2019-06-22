@@ -18,128 +18,124 @@
                             <span class='icon-bar'/>
                         </button>
                         <div class='navbar-brand navbar-bg'>
-                            <router-link to='/'>
+                            <a href='/'>
                                 <img class='img-responsive' src='images/logo.png' alt='logo'>
-                            </router-link>
+                            </a>
                         </div>
                     </div>
                     <!--/ Logo end -->
                     <nav class='collapse navbar-collapse clearfix' role='navigation'>
                         <ul class='nav navbar-nav navbar-right'>
                             <li class='dropdown active'>
-                                <router-link to='/' class='dropdown-toggle' data-toggle='dropdown'>
+                                <a href='/' class='dropdown-toggle' data-toggle='dropdown'>
                                     Home
                                     <i class='fa fa-angle-down'/>
-                                </router-link>
+                                </a>
                             </li>
                             <li class='dropdown'>
-                                <router-link
-                                    to='/service'
-                                    class='dropdown-toggle'
-                                    data-toggle='dropdown'
-                                >
+                                <a href='/service' class='dropdown-toggle' data-toggle='dropdown'>
                                     Services
                                     <i class='fa fa-angle-down'/>
-                                </router-link>
+                                </a>
                                 <div class='dropdown-menu'>
                                     <ul>
                                         <li>
-                                            <router-link to='/service-single'>Service Single</router-link>
+                                            <a href='/service-single'>Service Single</a>
                                         </li>
                                         <li>
-                                            <router-link to='/service'>Service</router-link>
+                                            <a href='/service'>Service</a>
                                         </li>
                                         <li>
-                                            <router-link to='/service2'>Service2</router-link>
+                                            <a href='/service2'>Service2</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class='dropdown'>
-                                <router-link
-                                    to='/portfolio-classic'
+                                <a
+                                    href='/portfolio-classic'
                                     class='dropdown-toggle'
                                     data-toggle='dropdown'
                                 >
                                     Portfolio
                                     <i class='fa fa-angle-down'/>
-                                </router-link>
+                                </a>
                                 <div class='dropdown-menu'>
                                     <ul>
                                         <li>
-                                            <router-link to='/portfolio-classic'>Portfolio Classic</router-link>
+                                            <a href='/portfolio-classic'>Portfolio Classic</a>
                                         </li>
                                         <li>
-                                            <router-link to='/portfolio-static'>Portfolio Static</router-link>
+                                            <a href='/portfolio-static'>Portfolio Static</a>
                                         </li>
                                         <li>
-                                            <router-link to='/portfolio-item'>Portfolio Single</router-link>
+                                            <a href='/portfolio-item'>Portfolio Single</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class='dropdown'>
-                                <router-link to='/' class='dropdown-toggle' data-toggle='dropdown'>
+                                <a href='/' class='dropdown-toggle' data-toggle='dropdown'>
                                     Pages
                                     <i class='fa fa-angle-down'/>
-                                </router-link>
+                                </a>
                                 <div class='dropdown-menu'>
                                     <ul>
                                         <li>
-                                            <router-link to='/team'>Our Team</router-link>
+                                            <a href='/team'>Our Team</a>
                                         </li>
                                         <li>
-                                            <router-link to='/about'>About</router-link>
+                                            <a href='/about'>About</a>
                                         </li>
                                         <li>
-                                            <router-link to='/pricing'>Pricing Table</router-link>
+                                            <a href='/pricing'>Pricing Table</a>
                                         </li>
                                         <li>
-                                            <router-link to='/404'>404 Page</router-link>
+                                            <a href='/404'>404 Page</a>
                                         </li>
                                         <li>
-                                            <router-link to='/career'>Career</router-link>
+                                            <a href='/career'>Career</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class='dropdown'>
-                                <router-link to='/' class='dropdown-toggle' data-toggle='dropdown'>
+                                <a href='/' class='dropdown-toggle' data-toggle='dropdown'>
                                     Blog
                                     <i class='fa fa-angle-down'/>
-                                </router-link>
+                                </a>
                                 <div class='dropdown-menu'>
                                     <ul>
                                         <li>
-                                            <router-link to='/blog-item'>Blog Single</router-link>
+                                            <a href='/blog-item'>Blog Single</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class='dropdown'>
-                                <router-link to='/' class='dropdown-toggle' data-toggle='dropdown'>
+                                <a href='/' class='dropdown-toggle' data-toggle='dropdown'>
                                     Features
                                     <i class='fa fa-angle-down'/>
-                                </router-link>
+                                </a>
                                 <div class='dropdown-menu'>
                                     <ul>
                                         <li>
-                                            <router-link to='/typography'>Typography</router-link>
+                                            <a href='/typography'>Typography</a>
                                         </li>
                                         <li>
-                                            <router-link to='/elements'>Elements</router-link>
+                                            <a href='/elements'>Elements</a>
                                         </li>
                                         <li>
-                                            <router-link to='/faq'>faq</router-link>
+                                            <a href='/faq'>faq</a>
                                         </li>
                                         <li>
-                                            <router-link to='/Testimonial'>Testimonial</router-link>
+                                            <a href='/Testimonial'>Testimonial</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li>
-                                <router-link to='/contact'>Contact</router-link>
+                                <a href='/contact'>Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -154,7 +150,6 @@
 </template>
 
 <script>
-
 export default {
     name: 'Header'
 }

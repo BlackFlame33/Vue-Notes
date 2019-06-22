@@ -1,20 +1,18 @@
 <template>
-    <div>
-        <div class='body-inner'>
-            <div id='banner-area'>
-                <img src='images/banner/banner1.jpg' alt>
-                <div class='parallax-overlay'></div>
+    <div class='body-inner'>
+        <div id='banner-area'>
+            <img src='images/banner/banner1.jpg' alt>
+            <div class='parallax-overlay'></div>
 
-                <SubpageTitle/>
-            </div>
-            <!-- Banner area end -->
-
-            <Maincontainer/>
-
-            <div class='gap-40'></div>
+            <SubpageTitle/>
         </div>
-        <!-- Body inner end -->
+        <!-- Banner area end -->
+
+        <Maincontainer/>
+
+        <div class='gap-40'></div>
     </div>
+    <!-- Body inner end -->
 </template>
 
 <script>

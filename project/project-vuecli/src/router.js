@@ -20,25 +20,6 @@ import Team1 from './views/Team1'
 import Testimonial1 from './views/Testimonial1'
 import Typography1 from './views/Typography1'
 
-import Copyright from './components/Copyright'
-import Counter from './components/Counter'
-import FeatureBox from './components/FeatureBox'
-import Footer1 from './components/Footer1'
-import Footer2 from './components/Footer2'
-import Header from './components/Header'
-import Maincontainer from './components/Maincontainer'
-import MaincontainerService2 from './components/MaincontainerService2'
-import MaincontainerTeam from './components/MaincontainerTeam'
-import Parallax1 from './components/Parallax1'
-import Portfolio from './components/Portfolio'
-import PricingTable from './components/PricingTable'
-import ServiceBox from './components/ServiceBox'
-import Slider from './components/Slider'
-import StyleSwitcher from './components/StyleSwitcher'
-import SubpageTitle from './components/SubpageTitle'
-import Team from './components/Team'
-import Testimonial from './components/Testimonial'
-
 Vue.use(Router)
 
 export default new Router({
@@ -137,6 +118,6 @@ export default new Router({
             path: '/*',
             name: 'error',
             component: Error
-        },
+        }
     ]
 })
