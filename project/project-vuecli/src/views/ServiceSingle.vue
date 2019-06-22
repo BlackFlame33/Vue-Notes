@@ -15,18 +15,18 @@
             </section>
         </div>
         <!-- Body inner end -->
-        <Subpagetitle/>
+        <SubpageTitle/>
         <Maincontainer/>
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Subpagetitle from '@/components/Subpagetitle.vue'
-import Maincontainer from '@/components/Maincontainer.vue'
+import SubpageTitle from '@/components/SubpageTitle'
+import Maincontainer from '@/components/Maincontainer'
 export default {
     components: {
-        Subpagetitle,
+        SubpageTitle,
         Maincontainer
     }
 }

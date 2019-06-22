@@ -4,20 +4,7 @@
             <div id='banner-area'>
                 <img src='images/banner/banner2.jpg' alt>
                 <div class='parallax-overlay'/>
-                <!-- Subpage title start -->
-                <div class='banner-title-content'>
-                    <div class='text-center'>
-                        <h2>Typography</h2>
-                        <ul class='breadcrumb'>
-                            <li>Home</li>
-                            <li>Features</li>
-                            <li>
-                                <a href='#'>Typography</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Subpage title end -->
+                <SubpageTitle/>
             </div>
             <!-- Banner area end -->
             <MaincontainerService/>
@@ -26,10 +13,12 @@
 </template>
 <script>
 // @ is an alias to /src
+import SubpageTitle from '@/components/SubpageTitle'
 import MaincontainerService from '@/components/MaincontainerService.vue'
 
 export default {
     components: {
+        SubpageTitle,
         MaincontainerService
     }
 }

@@ -5,7 +5,7 @@
                 <img src='images/banner/banner2.jpg' alt>
                 <div class='parallax-overlay'></div>
 
-                <subpagetitle/>
+                <SubpageTitle/>
             </div>
             <!-- Banner area end -->
 
@@ -18,13 +18,13 @@
 </template>
 
 <script>
-import Subpagetitle from '@/components/Subpagetitle'
+import SubpageTitle from '@/components/SubpageTitle'
 import BlogDetailsPage from '@/components/BlogDetailsPage'
 export default {
     name: 'biog-item',
     components: {
-        BlogDetailsPage,
-        Subpagetitle
+        SubpageTitle,
+        BlogDetailsPage
     }
 }
 </script>

@@ -5,7 +5,7 @@
                 <img src='images/banner/banner1.jpg' alt>
                 <div class='parallax-overlay'></div>
 
-                <BubpageTitle/>
+                <SubpageTitle/>
             </div>
             <!-- Banner area end -->
 
@@ -18,13 +18,13 @@
 </template>
 
 <script>
-import BubpageTitle from '@/components/BubpageTitle'
+import SubpageTitle from '@/components/SubpageTitle'
 import Maincontainer from '@/components/Maincontainer'
 export default {
     name: 'home',
     components: {
-        Maincontainer,
-        BubpageTitle
+        SubpageTitle,
+        Maincontainer
     }
 }
 </script>

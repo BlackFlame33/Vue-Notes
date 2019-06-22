@@ -4,20 +4,7 @@
             <div id='banner-area'>
                 <img src='images/banner/banner2.jpg' alt>
                 <div class='parallax-overlay'></div>
-                <!-- Subpage title start -->
-                <div class='banner-title-content'>
-                    <div class='text-center'>
-                        <h2>Pricing</h2>
-                        <ul class='breadcrumb'>
-                            <li>Home</li>
-                            <li>Pages</li>
-                            <li>
-                                <a href='#'>Pricing</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Subpage title end -->
+                <SubpageTitle/>
             </div>
             <!-- Banner area end -->
 
@@ -243,8 +230,11 @@
     </div>
 </template>
 <script>
+import SubpageTitle from '@/components/SubpageTitle'
 export default {
     name: 'Home',
-    components: {}
+    components: {
+        SubpageTitle,
+    }
 }
 </script>

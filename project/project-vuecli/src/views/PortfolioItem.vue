@@ -3,20 +3,7 @@
         <div id='banner-area'>
             <img src='images/banner/banner2.jpg' alt>
             <div class='parallax-overlay'></div>
-            <!-- Subpage title start -->
-            <div class='banner-title-content'>
-                <div class='text-center'>
-                    <h2>Portfolio Single</h2>
-                    <ul class='breadcrumb'>
-                        <li>Home</li>
-                        <li>Portfolio</li>
-                        <li>
-                            <a href='#'>Portfolio Single</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Subpage title end -->
+            <SubpageTitle/>
         </div>
         <!-- Banner area end -->
 
@@ -76,9 +63,12 @@
     <!-- Body inner end -->
 </template>
 <script>
+import SubpageTitle from '@/components/SubpageTitle'
 export default {
     name: 'Home',
-    components: {}
+    components: {
+        SubpageTitle
+    }
 }
 </script>
 

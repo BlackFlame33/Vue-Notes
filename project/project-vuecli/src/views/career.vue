@@ -1,11 +1,10 @@
 <template>
     <div>
         <div class='body-inner'>
-
             <div id='banner-area'>
                 <img src='images/banner/banner2.jpg' alt>
                 <div class='parallax-overlay'></div>
-                <Subpagetitle/>
+                <SubpageTitle/>
             </div>
             <!-- Banner area end -->
             <!-- Main container start -->
@@ -241,11 +240,11 @@
 </template>
 
 <script>
-import Subpagetitle from '@/components/Subpagetitle'
+import SubpageTitle from '@/components/SubpageTitle'
 export default {
     name: 'career',
     components: {
-        Subpagetitle,
+        SubpageTitle
     }
 }
 </script>

@@ -1,45 +1,44 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+import About from './views/About'
+import Faq from './views/Faq'
 import Home from './views/Home.vue'
-import Servicesingle from './views/Service-single'
+import PortfolioClassic from './views/PortfolioClassic'
+import PortfolioItem from './views/PortfolioItem'
+import PortfolioStatic from './views/PortfolioStatic'
+import Pricing from './views/Pricing'
 import Service from './views/Service'
 import Service2 from './views/Service2'
+import ServiceSingle from './views/ServiceSingle'
 import Team1 from './views/Team1'
 import Testimonial1 from './views/Testimonial1'
 import Typography1 from './views/Typography1'
-import error from './views/error'
-import About from './views/About'
-import blogItem from './views/blogItem'
-import career from './views/career'
-import contact from './views/contact'
-import elements from './views/elements'
-import Faq from './views/Faq'
-import PortfolioClassic from './views/PortfolioClassic'
-import PortfolioStatic from './views/PortfolioStatic'
-import Pricing from './views/Pricing'
-import PortfolioItem from './views/PortfolioItem'
+import BlogItem from './views/BlogItem'
+import Career from './views/Career'
+import Contact from './views/Contact'
+import Elements from './views/Elements'
+import Error from './views/Error'
 
-import MaincontainerTeam from './components/MaincontainerTeam'
-import MaincontainerService2 from './components/MaincontainerService2'
+import BlogDetailsPage from './components/BlogDetailsPage'
+import Copyright from './components/Copyright'
+import Counter from './components/Counter'
+import FeatureBox from './components/FeatureBox'
 import Footer1 from './components/Footer1'
 import Footer2 from './components/Footer2'
 import Header from './components/Header'
-import StyleSwitcher from './components/StyleSwitcher'
-import Slider from './components/Slider'
-import ServiceBox from './components/ServiceBox'
 import Maincontainer from './components/Maincontainer'
-import Subpagetitle from './components/Subpagetitle'
-import Portfolio from './components/Portfolio'
-import Counter from './components/Counter'
-import FeatureBox from './components/FeatureBox'
-import Team from './components/Team'
+import MaincontainerService2 from './components/MaincontainerService2'
+import MaincontainerTeam from './components/MaincontainerTeam'
 import Parallax1 from './components/Parallax1'
+import Portfolio from './components/Portfolio'
 import PricingTable from './components/PricingTable'
+import ServiceBox from './components/ServiceBox'
+import Slider from './components/Slider'
+import StyleSwitcher from './components/StyleSwitcher'
+import SubpageTitle from './components/SubpageTitle'
+import Team from './components/Team'
 import Testimonial from './components/Testimonial'
-import Copyright from './components/Copyright'
-import BubpageTitle from './components/BubpageTitle'
-import BlogDetailsPage from './components/BlogDetailsPage'
 
 Vue.use(Router)
 
@@ -57,7 +56,7 @@ export default new Router({
             // route level code-splitting
             // this generates a separate chunk (about.[hash].js) for this route
             // which is lazy-loaded when the route is visited.
-            component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+            component: About
         },
         {
             path: '/service',
@@ -67,12 +66,12 @@ export default new Router({
         {
             path: '/service2',
             name: 'service2',
-            component: () => import(/* webpackChunkName: "service" */ './views/Service2.vue')
+            component: Service2
         },
         {
             path: '/service-single',
             name: 'service-single',
-            component: Servicesingle
+            component: ServiceSingle
         },
         {
             path: '/team',
@@ -92,32 +91,27 @@ export default new Router({
         {
             path: '/error',
             name: 'error',
-            component: error
+            component: Error
         },
         {
             path: '/blog-item',
-            name: 'blogItem',
-            component: blogItem
-        },
-        {
-            path: '/about',
-            name: 'About',
-            component: About
+            name: 'blog-item',
+            component: BlogItem
         },
         {
             path: '/career',
             name: 'career',
-            component: career
+            component: Career
         },
         {
             path: '/contact',
             name: 'contact',
-            component: contact
+            component: Contact
         },
         {
             path: '/elements',
             name: 'elements',
-            component: elements
+            component: Elements
         },
         {
             path: '/faq',
@@ -131,7 +125,7 @@ export default new Router({
         },
         {
             path: '/portfolio-static',
-            name: 'PortfolioStatic',
+            name: 'portfolio-static',
             component: PortfolioStatic
         },
         {
@@ -141,7 +135,7 @@ export default new Router({
         },
         {
             path: '/portfolio-item',
-            name: 'PortfolioItem',
+            name: 'portfolio-item',
             component: PortfolioItem
         }
     ]
