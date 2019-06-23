@@ -26,11 +26,8 @@
                     <!--/ Logo end -->
                     <nav class='collapse navbar-collapse clearfix' role='navigation'>
                         <ul class='nav navbar-nav navbar-right'>
-                            <li class='dropdown active'>
-                                <a href='/' class='dropdown-toggle' data-toggle='dropdown'>
-                                    Home
-                                    <i class='fa fa-angle-down'/>
-                                </a>
+                            <li>
+                                <a href='/'>Home</a>
                             </li>
                             <li class='dropdown'>
                                 <a href='/service' class='dropdown-toggle' data-toggle='dropdown'>
@@ -99,18 +96,8 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class='dropdown'>
-                                <a href='/' class='dropdown-toggle' data-toggle='dropdown'>
-                                    Blog
-                                    <i class='fa fa-angle-down'/>
-                                </a>
-                                <div class='dropdown-menu'>
-                                    <ul>
-                                        <li>
-                                            <a href='/blog-item'>Blog Single</a>
-                                        </li>
-                                    </ul>
-                                </div>
+                            <li>
+                                <a href='/blog-item'>Blog</a>
                             </li>
                             <li class='dropdown'>
                                 <a href='/' class='dropdown-toggle' data-toggle='dropdown'>
