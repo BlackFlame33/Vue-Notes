@@ -17,7 +17,6 @@
 import SubpageTitle from '@/components/SubpageTitle'
 import Portfolio from '@/components/Portfolio'
 export default {
-    name: 'Home',
     components: {
         SubpageTitle,
         Portfolio

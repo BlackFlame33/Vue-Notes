@@ -240,12 +240,8 @@
 <script>
 import SubpageTitle from '@/components/SubpageTitle'
 export default {
-    name: 'career',
     components: {
         SubpageTitle
     }
 }
 </script>
-
-<style scoped>
-</style>

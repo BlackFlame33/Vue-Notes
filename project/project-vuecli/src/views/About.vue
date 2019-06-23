@@ -8,8 +8,285 @@
         </div>
         <!-- Banner area end -->
 
-        <Maincontainer/>
+        <!-- Main container start -->
 
+        <section id='main-container'>
+            <div class='container'>
+                <!-- Company Profile -->
+
+                <div class='row'>
+                    <div class='col-md-12 heading text-center'>
+                        <h2 class='title2'>
+                            About Our Company
+                            <span
+                                class='title-desc'
+                            >A Quality Experience Team with 4 years experience</span>
+                        </h2>
+                    </div>
+                </div>
+                <!-- Title row end -->
+
+                <div class='row about-wrapper-top'>
+                    <div class='col-md-6 ts-padding about-message'>
+                        <h3>Who We Are</h3>
+                        <p>
+                            "Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor
+                            fringilla. Lorem ipsum dolor sit amet mattis ut consequat mauris cursus.
+                        </p>
+                        <p>Curabitur metus felis, venenatis eu ultricies vel, vehicula eu urna. Phasellus eget augue id est fringilla feugiat id a tellus. Sed hendrerit quam sed ante euismod posuere element ante."</p>
+                    </div>
+                    <!--/ About message end -->
+                    <div
+                        class='col-md-6 ts-padding about-img'
+                        style='height:374px;background:url(images/pages/about-1.jpg) 50% 50% / cover no-repeat;'
+                    ></div>
+                    <!--/ About image end -->
+                </div>
+                <!--/ Content row end -->
+
+                <div class='row about-wrapper-bottom'>
+                    <div
+                        class='col-md-6 ts-padding about-img'
+                        style='height:374px;background:url(images/pages/about-2.jpg) 50% 50% / cover no-repeat;'
+                    ></div>
+                    <!--/ About image end -->
+                    <div class='col-md-6 ts-padding about-message'>
+                        <h3>What We Do</h3>
+                        <p>"Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.</p>
+                        <ul class='unstyled arrow'>
+                            <li>
+                                <a href='#'>Etiam porta sem malesuada</a>
+                            </li>
+                            <li>
+                                <a href='#'>Pellentesque ornare sem lacinia</a>
+                            </li>
+                            <li>
+                                <a href='#'>Cras mattis consectetur purus</a>
+                            </li>
+                            <li>
+                                <a href='#'>Sed hendrerit quam sed ante</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/ About message end -->
+                </div>
+                <!--/ Content row end -->
+
+                <!-- Company Profile -->
+            </div>
+            <!--/ 1st container end -->
+
+            <div class='gap-60'></div>
+
+            <!-- Counter Strat -->
+            <div class='ts_counter_bg parallax parallax2'>
+                <div class='parallax-overlay'></div>
+                <div class='container'>
+                    <div class='row wow fadeInLeft text-center'>
+                        <div class='facts col-md-3 col-sm-6'>
+                            <span class='facts-icon'>
+                                <i class='fa fa-user'></i>
+                            </span>
+                            <div class='facts-num'>
+                                <span class='counter'>1200</span>
+                            </div>
+                            <h3>Clients</h3>
+                        </div>
+
+                        <div class='facts col-md-3 col-sm-6'>
+                            <span class='facts-icon'>
+                                <i class='fa fa-institution'></i>
+                            </span>
+                            <div class='facts-num'>
+                                <span class='counter'>1277</span>
+                            </div>
+                            <h3>Item Sold</h3>
+                        </div>
+
+                        <div class='facts col-md-3 col-sm-6'>
+                            <span class='facts-icon'>
+                                <i class='fa fa-suitcase'></i>
+                            </span>
+                            <div class='facts-num'>
+                                <span class='counter'>869</span>
+                            </div>
+                            <h3>Projects</h3>
+                        </div>
+
+                        <div class='facts col-md-3 col-sm-6'>
+                            <span class='facts-icon'>
+                                <i class='fa fa-trophy'></i>
+                            </span>
+                            <div class='facts-num'>
+                                <span class='counter'>76</span>
+                            </div>
+                            <h3>Awwards</h3>
+                        </div>
+
+                        <div class='gap-40'></div>
+
+                        <div>
+                            <a href='#' class='btn btn-primary solid'>See Our Portfolio</a>
+                        </div>
+                    </div>
+                    <!--/ row end -->
+                </div>
+                <!--/ Container end -->
+            </div>
+            <!--/ Counter end -->
+
+            <div class='gap-60'></div>
+
+            <div class='container'>
+                <!-- 2nd container start -->
+
+                <!-- Team start -->
+                <div class='team'>
+                    <div class='row'>
+                        <div class='col-md-12 heading text-center'>
+                            <h2 class='title2'>
+                                Meet With Our Company
+                                <span
+                                    class='title-desc'
+                                >A Quality Experience Team with 4 years experience</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <!-- Title row end -->
+
+                    <div class='row text-center'>
+                        <div class='col-md-3 col-sm-6'>
+                            <div class='team wow slideInLeft'>
+                                <div class='img-hexagon'>
+                                    <img src='images/team/team1.jpg' alt>
+                                    <span class='img-top'></span>
+                                    <span class='img-bottom'></span>
+                                </div>
+                                <div class='team-content'>
+                                    <h3>Vosgi Varduhi</h3>
+                                    <p>Web Designer</p>
+                                    <div class='team-social'>
+                                        <a class='fb' href='#'>
+                                            <i class='fa fa-facebook'></i>
+                                        </a>
+                                        <a class='twt' href='#'>
+                                            <i class='fa fa-twitter'></i>
+                                        </a>
+                                        <a class='gplus' href='#'>
+                                            <i class='fa fa-google-plus'></i>
+                                        </a>
+                                        <a class='linkdin' href='#'>
+                                            <i class='fa fa-linkedin'></i>
+                                        </a>
+                                        <a class='dribble' href='#'>
+                                            <i class='fa fa-dribbble'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ Team 1 end -->
+                        <div class='col-md-3 col-sm-6'>
+                            <div class='team wow slideInLeft'>
+                                <div class='img-hexagon'>
+                                    <img src='images/team/team2.jpg' alt>
+                                    <span class='img-top'></span>
+                                    <span class='img-bottom'></span>
+                                </div>
+                                <div class='team-content'>
+                                    <h3>Robert Aleska</h3>
+                                    <p>Web Designer</p>
+                                    <div class='team-social'>
+                                        <a class='fb' href='#'>
+                                            <i class='fa fa-facebook'></i>
+                                        </a>
+                                        <a class='twt' href='#'>
+                                            <i class='fa fa-twitter'></i>
+                                        </a>
+                                        <a class='gplus' href='#'>
+                                            <i class='fa fa-google-plus'></i>
+                                        </a>
+                                        <a class='linkdin' href='#'>
+                                            <i class='fa fa-linkedin'></i>
+                                        </a>
+                                        <a class='dribble' href='#'>
+                                            <i class='fa fa-dribbble'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ Team 2 end -->
+                        <div class='col-md-3 col-sm-6'>
+                            <div class='team wow slideInRight'>
+                                <div class='img-hexagon'>
+                                    <img src='images/team/team3.jpg' alt>
+                                    <span class='img-top'></span>
+                                    <span class='img-bottom'></span>
+                                </div>
+                                <div class='team-content'>
+                                    <h3>Taline Voski</h3>
+                                    <p>Web Designer</p>
+                                    <div class='team-social'>
+                                        <a class='fb' href='#'>
+                                            <i class='fa fa-facebook'></i>
+                                        </a>
+                                        <a class='twt' href='#'>
+                                            <i class='fa fa-twitter'></i>
+                                        </a>
+                                        <a class='gplus' href='#'>
+                                            <i class='fa fa-google-plus'></i>
+                                        </a>
+                                        <a class='linkdin' href='#'>
+                                            <i class='fa fa-linkedin'></i>
+                                        </a>
+                                        <a class='dribble' href='#'>
+                                            <i class='fa fa-dribbble'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ Team 3 end -->
+                        <div class='col-md-3 col-sm-6'>
+                            <div class='team animate wow slideInRight'>
+                                <div class='img-hexagon'>
+                                    <img src='images/team/team4.jpg' alt>
+                                    <span class='img-top'></span>
+                                    <span class='img-bottom'></span>
+                                </div>
+                                <div class='team-content'>
+                                    <h3>Alban Spencer</h3>
+                                    <p>Web Designer</p>
+                                    <div class='team-social'>
+                                        <a class='fb' href='#'>
+                                            <i class='fa fa-facebook'></i>
+                                        </a>
+                                        <a class='twt' href='#'>
+                                            <i class='fa fa-twitter'></i>
+                                        </a>
+                                        <a class='gplus' href='#'>
+                                            <i class='fa fa-google-plus'></i>
+                                        </a>
+                                        <a class='linkdin' href='#'>
+                                            <i class='fa fa-linkedin'></i>
+                                        </a>
+                                        <a class='dribble' href='#'>
+                                            <i class='fa fa-dribbble'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ Team 4 end -->
+                    </div>
+                    <!--/ Content row end -->
+                </div>
+                <!-- Team end -->
+            </div>
+            <!-- 2nd container end -->
+        </section>
+        <!--/ Main container end -->
         <div class='gap-40'></div>
     </div>
     <!-- Body inner end -->
@@ -17,15 +294,9 @@
 
 <script>
 import SubpageTitle from '@/components/SubpageTitle'
-import Maincontainer from '@/components/Maincontainer'
 export default {
-    name: 'home',
     components: {
         SubpageTitle,
-        Maincontainer
     }
 }
 </script>
-
-<style scoped>
-</style>

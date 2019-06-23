@@ -241,7 +241,6 @@
 <script>
 import SubpageTitle from '@/components/SubpageTitle'
 export default {
-    name: 'elements',
     components: {
         SubpageTitle
     }

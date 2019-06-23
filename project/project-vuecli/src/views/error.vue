@@ -36,7 +36,6 @@
 <script>
 import SubpageTitle from '@/components/SubpageTitle'
 export default {
-    name: 'home',
     components: {
         SubpageTitle
     }

@@ -88,7 +88,6 @@ import Testimonial from '@/components/Testimonial'
 import Clients from '@/components/Clients'
 
 export default {
-    name: 'Home',
     components: {
         StyleSwitcher,
         Slider,

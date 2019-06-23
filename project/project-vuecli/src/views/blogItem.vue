@@ -572,12 +572,8 @@
 <script>
 import SubpageTitle from '@/components/SubpageTitle'
 export default {
-    name: 'biog-item',
     components: {
         SubpageTitle
     }
 }
 </script>
-
-<style scoped>
-</style>

@@ -7,7 +7,7 @@
                 <li>Home</li>
                 <li>Pages</li>
                 <li>
-                    <a href='index.html'>{{msg}}</a>
+                    <a href='/'>{{msg}}</a>
                 </li>
             </ul>
         </div>

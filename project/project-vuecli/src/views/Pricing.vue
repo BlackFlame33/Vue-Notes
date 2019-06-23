@@ -230,7 +230,6 @@
 <script>
 import SubpageTitle from '@/components/SubpageTitle'
 export default {
-    name: 'Home',
     components: {
         SubpageTitle
     }

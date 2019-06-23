@@ -3,22 +3,9 @@
         <div id='banner-area'>
             <img src='images/banner/banner2.jpg' alt>
             <div class='parallax-overlay'></div>
-            <!-- Subpage title start -->
-            <div class='banner-title-content'>
-                <div class='text-center'>
-                    <h2>Contact Us</h2>
-                    <ul class='breadcrumb'>
-                        <li>Home</li>
-                        <li>
-                            <a href='#'>Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Subpage title end -->
+            <SubpageTitle/>
+            <!-- Banner area end -->
         </div>
-        <!-- Banner area end -->
-
         <!-- Main container start -->
 
         <section id='main-container'>
@@ -121,7 +108,6 @@
             <!--/ container end -->
         </section>
         <!--/ Main container end -->
-        >
     </div>
     <!-- Body inner end -->
 </template>
@@ -144,12 +130,8 @@ $(function() {
         })
 })
 export default {
-    name: 'contact',
     components: {
         SubpageTitle
     }
 }
 </script>
-
-<style scoped>
-</style>

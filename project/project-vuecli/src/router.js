@@ -8,7 +8,7 @@ import Contact from './views/Contact'
 import Elements from './views/Elements'
 import Error from './views/Error'
 import Faq from './views/Faq'
-import Home from './views/Home.vue'
+import Home from './views/Home'
 import PortfolioClassic from './views/PortfolioClassic'
 import PortfolioItem from './views/PortfolioItem'
 import PortfolioStatic from './views/PortfolioStatic'
@@ -115,7 +115,7 @@ export default new Router({
             component: PortfolioItem
         },
         {
-            path: '/*',
+            path: '*',
             name: 'error',
             component: Error
         }
