@@ -1,45 +1,45 @@
 <template>
     <div>
         <!-- Copyright start -->
-        <section id="copyright" class="copyright angle">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <ul class="footer-social unstyled">
+        <section id='copyright' class='copyright angle'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-md-12 text-center'>
+                        <ul class='footer-social unstyled'>
                             <li>
-                                <a title="Twitter" href="#">
-                                    <span class="icon-pentagon wow bounceIn">
-                                        <i class="fa fa-twitter"/>
+                                <a title='Twitter' href='#'>
+                                    <span class='icon-pentagon wow bounceIn'>
+                                        <i class='fa fa-twitter'/>
                                     </span>
                                 </a>
-                                <a title="Facebook" href="#">
-                                    <span class="icon-pentagon wow bounceIn">
-                                        <i class="fa fa-facebook"/>
+                                <a title='Facebook' href='#'>
+                                    <span class='icon-pentagon wow bounceIn'>
+                                        <i class='fa fa-facebook'/>
                                     </span>
                                 </a>
-                                <a title="Google+" href="#">
-                                    <span class="icon-pentagon wow bounceIn">
-                                        <i class="fa fa-google-plus"/>
+                                <a title='Google+' href='#'>
+                                    <span class='icon-pentagon wow bounceIn'>
+                                        <i class='fa fa-google-plus'/>
                                     </span>
                                 </a>
-                                <a title="linkedin" href="#">
-                                    <span class="icon-pentagon wow bounceIn">
-                                        <i class="fa fa-linkedin"/>
+                                <a title='linkedin' href='#'>
+                                    <span class='icon-pentagon wow bounceIn'>
+                                        <i class='fa fa-linkedin'/>
                                     </span>
                                 </a>
-                                <a title="Pinterest" href="#">
-                                    <span class="icon-pentagon wow bounceIn">
-                                        <i class="fa fa-pinterest"/>
+                                <a title='Pinterest' href='#'>
+                                    <span class='icon-pentagon wow bounceIn'>
+                                        <i class='fa fa-pinterest'/>
                                     </span>
                                 </a>
-                                <a title="Skype" href="#">
-                                    <span class="icon-pentagon wow bounceIn">
-                                        <i class="fa fa-skype"/>
+                                <a title='Skype' href='#'>
+                                    <span class='icon-pentagon wow bounceIn'>
+                                        <i class='fa fa-skype'/>
                                     </span>
                                 </a>
-                                <a title="Dribble" href="#">
-                                    <span class="icon-pentagon wow bounceIn">
-                                        <i class="fa fa-dribbble"/>
+                                <a title='Dribble' href='#'>
+                                    <span class='icon-pentagon wow bounceIn'>
+                                        <i class='fa fa-dribbble'/>
                                     </span>
                                 </a>
                             </li>
@@ -47,26 +47,26 @@
                     </div>
                 </div>
                 <!--/ Row end -->
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="copyright-info">
-                            &copy; Copyright 2019 Themefisher.
+                <div class='row'>
+                    <div class='col-md-12 text-center'>
+                        <div class='copyright-info'>
+                            &copy; Copyright 2019 石在、李昊霖、黄巧.
                             <span>
                                 Designed by
-                                <a href="https://themefisher.com">Themefisher.com</a>
+                                <a href='/'>BlackFlame33</a>
                             </span>
                         </div>
                     </div>
                 </div>
                 <!--/ Row end -->
                 <div
-                    id="back-to-top"
-                    data-spy="affix"
-                    data-offset-top="10"
-                    class="back-to-top affix"
+                    id='back-to-top'
+                    data-spy='affix'
+                    data-offset-top='10'
+                    class='back-to-top affix'
                 >
-                    <button class="btn btn-primary" title="Back to Top">
-                        <i class="fa fa-angle-double-up"/>
+                    <button class='btn btn-primary' title='Back to Top'>
+                        <i class='fa fa-angle-double-up'/>
                     </button>
                 </div>
             </div>

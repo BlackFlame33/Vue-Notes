@@ -50,10 +50,10 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="copyright-info">
-                            &copy; Copyright 2019 Themefisher.
+                            &copy; Copyright 2019 石在、李昊霖、黄巧.
                             <span>
                                 Designed by
-                                <a href="https://themefisher.com">Themefisher.com</a>
+                                <a href="">BlackFlame33</a>
                             </span>
                         </div>
                     </div>
