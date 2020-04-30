@@ -26,7 +26,7 @@
         "eslint": "^5.16.0",
         "eslint-plugin-html": "^5.0.5",
         "eslint-plugin-vue": "^5.0.0",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "vue-cli-plugin-bootstrap": "^1.0.0-alpha.0",
         "vue-template-compiler": "^2.6.10"
     },
