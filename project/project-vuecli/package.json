@@ -8,27 +8,27 @@
         "lint": "vue-cli-service lint"
     },
     "dependencies": {
-        "@types/jquery.prettyphoto": "^3.1.29",
-        "bootstrap": "^4.3.1",
-        "core-js": "^2.6.5",
+        "@types/jquery.prettyphoto": "^3.1.30",
+        "bootstrap": "^5.2.3",
+        "core-js": "^3.26.1",
         "get-style-property": "^0.1.1",
         "jquery.easing": "^1.4.1",
         "popper.js": "^1.15.0",
-        "vue": "^2.6.10",
-        "vue-router": "^3.0.3",
-        "vuex": "^3.0.1"
+        "vue": "^3.2.45",
+        "vue-router": "^4.1.6",
+        "vuex": "^4.1.0"
     },
     "devDependencies": {
-        "@vue/cli-plugin-babel": "^3.8.0",
-        "@vue/cli-plugin-eslint": "^3.8.0",
+        "@vue/cli-plugin-babel": "^5.0.8",
+        "@vue/cli-plugin-eslint": "^5.0.8",
         "@vue/cli-service": "^5.0.8",
         "babel-eslint": "^10.0.1",
-        "eslint": "^5.16.0",
-        "eslint-plugin-html": "^5.0.5",
-        "eslint-plugin-vue": "^5.0.0",
-        "jquery": "^3.5.0",
+        "eslint": "^8.29.0",
+        "eslint-plugin-html": "^7.1.0",
+        "eslint-plugin-vue": "^9.8.0",
+        "jquery": "^3.6.1",
         "vue-cli-plugin-bootstrap": "^1.0.0-alpha.0",
-        "vue-template-compiler": "^2.6.10"
+        "vue-template-compiler": "^2.7.14"
     },
     "eslintConfig": {
         "root": true,
