@@ -17,7 +17,7 @@
 
 <script>
 export default {
-    name: 'BubpageTitle',
+    name: 'SubpageTitle',
     data() {
         return {
             msg: this.$route.path + '/'
